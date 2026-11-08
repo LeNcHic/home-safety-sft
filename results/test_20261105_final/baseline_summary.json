@@ -1,0 +1,11 @@
+{
+  "answers": 80,
+  "mean_generated_tokens": 168.5,
+  "eos_count": 79,
+  "token_limit_count": 1,
+  "answers_with_duplicate_sentence": 8,
+  "answers_with_sentence_repeated_at_least_3_times": 3,
+  "mean_duplicate_sentence_ratio": 0.017242267536385185,
+  "safety_pass": 0,
+  "safety_applicable": 4
+}

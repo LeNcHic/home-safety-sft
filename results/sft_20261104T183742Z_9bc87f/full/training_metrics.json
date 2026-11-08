@@ -1,0 +1,11 @@
+{
+  "train_runtime": 139.4733,
+  "train_samples_per_second": 1.147,
+  "train_steps_per_second": 0.143,
+  "total_flos": 620356385636352.0,
+  "train_loss": 1.9679660975933075,
+  "epoch": 2.0,
+  "elapsed_seconds": 140.01048301300034,
+  "peak_allocated_bytes": 4379021312,
+  "peak_reserved_bytes": 5018484736
+}

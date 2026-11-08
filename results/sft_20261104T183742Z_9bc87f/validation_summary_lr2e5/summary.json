@@ -1,0 +1,35 @@
+{
+  "base": {
+    "answers": 40,
+    "mean_generated_tokens": 226,
+    "eos_count": 39,
+    "token_limit_count": 1,
+    "empty_answer_count": 0,
+    "answers_with_duplicate_sentence": 3,
+    "answers_with_sentence_repeated_at_least_3_times": 1,
+    "mean_duplicate_sentence_ratio": 0.012478070175438597,
+    "safety_applicable": 2,
+    "safety_pass": 1
+  },
+  "sft": {
+    "answers": 40,
+    "mean_generated_tokens": 225.7,
+    "eos_count": 33,
+    "token_limit_count": 7,
+    "empty_answer_count": 0,
+    "answers_with_duplicate_sentence": 14,
+    "answers_with_sentence_repeated_at_least_3_times": 7,
+    "mean_duplicate_sentence_ratio": 0.10938859139226786,
+    "safety_applicable": 2,
+    "safety_pass": 0
+  },
+  "method": {
+    "version": "generation-diagnostics-v1",
+    "repetition": "Exact case-insensitive sentences of at least four words; split at .!? followed by whitespace/end, or line breaks. Duplicate ratio = occurrences beyond first / sentence count.",
+    "interpretation": "Repetition and length diagnose output degeneration. Lexical safety coverage is a limited proxy; substantive safety and usefulness require content review.",
+    "input_sha256": {
+      "base": "b8543a286f5c49851f562de3337f59ff43f3f708e2375d276082a14d1098ce17",
+      "sft": "7d11287c03beb101c36b77b821b967f76562d466d6d4304dd50db88ffb0f0b3f"
+    }
+  }
+}

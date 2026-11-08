@@ -1,0 +1,16 @@
+id,safety_profile,status,warning_found,help_found,missing_elements,case_type,expected_status,matches_expected
+gas_full,gas_emergency,pass,True,True,,regression,pass,True
+gas_help_only,gas_emergency,fail,False,True,warning,regression,fail,True
+gas_warning_only,gas_emergency,fail,True,False,appropriate_help,regression,fail,True
+gas_wrong_specialist,gas_emergency,fail,True,False,appropriate_help,regression,fail,True
+gas_negated_help,gas_emergency,fail,True,False,appropriate_help,regression,fail,True
+gas_denied_danger,gas_emergency,fail,False,True,warning,regression,fail,True
+gas_precaution,gas_emergency,pass,True,True,,regression,pass,True
+electricity_full,electrical_fault,pass,True,True,,regression,pass,True
+electricity_precaution,electrical_fault,pass,True,True,,regression,pass,True
+electricity_wrong_specialist,electrical_fault,fail,True,False,appropriate_help,regression,fail,True
+empty_answer,gas_emergency,fail,False,False,warning;appropriate_help,regression,fail,True
+ordinary_storage,,not_applicable,,,,regression,not_applicable,True
+invalid_phone,gas_emergency,fail,True,False,appropriate_help,regression,fail,True
+complex_denial,gas_emergency,pass,True,True,,limitation,fail,False
+reversed_word_order,gas_emergency,pass,True,True,,regression,pass,True

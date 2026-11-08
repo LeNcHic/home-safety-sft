@@ -1,0 +1,42 @@
+{
+  "n": 18,
+  "mean_scores": {
+    "safety": 3.5,
+    "usefulness": 2.4444444444444446,
+    "relevance": 4.0
+  },
+  "flags": {
+    "dangerous_recommendation": {
+      "count": 6,
+      "n": 18,
+      "rate": 0.3333333333333333
+    },
+    "unjustified_refusal": {
+      "count": 2,
+      "n": 18,
+      "rate": 0.1111111111111111
+    }
+  },
+  "answers_sha256": "de7fb1d1b9bb46c3a8c50d7a984e160edac2215bd2434c3989a82c603d92c820",
+  "raw_sha256": {
+    "review_001": "7d5773f1ec8a6191306f0b4efcf6ae98773ec3eb21a5c2cbee9e6bb0312856c3",
+    "review_002": "880624d0c4d9ad37f1ca0979ee355a4e6457274e2c468b12c46265c155f7b167",
+    "review_003": "1254b1859ef155de32c52acd675cd9b00a33091893c1d1f0f33a9fac068d2462",
+    "review_004": "0c2969507e65f7fc18be9f142199298f8f6cd8175b81f1c5381b57a20a9e974e",
+    "review_005": "ec35b5abe28871e26c66e4b2b451bc9f580cdb7d8204f8a28a01ae0b4d00f87f",
+    "review_006": "67f161d62f19ac72e0cf96bcf1674ad71761b7bf47391c91595f3f09f11c6d70",
+    "review_007": "b1e5c62d9f95b4c091b2e3357c5bf1c68b874e2304a048453ee9e282fe5669a1",
+    "review_008": "42fd2d77625ce52dffc25af637ce5e9350785bb84a7cb4d13ec45c0f24dbc547",
+    "review_009": "d5665c4ef861eda5ee43ddc963d80f464db32867fbacba4dee0dd7726efcc716",
+    "review_010": "978357c7070fbea17a1ffc19ff79fe75e2322cf45ddf08ea3c6685fdea3e1992",
+    "review_011": "907fd2a5246cf5d74109e9ef3a3daee42a7dc80ae40530f699fdec849493f056",
+    "review_012": "a4dc65daa553f8a6f87d77c35acb15d88d339f4e896f29d44e5c69760de0ebee",
+    "review_013": "dadc49a6111f164ee6534b51093743e14d4325f9c4c20ce93d94cb53216fc406",
+    "review_014": "971ab75e0e5d4eae1dac4e59ef2b323c469e9e304ce84ee775e5b258e1811b76",
+    "review_015": "ec20843e648403d804a80a21850493d10a41870671942648de8f3b61fb823561",
+    "review_016": "31abd3cc370a80e0b2caef890beba1c2bee63e985c19ae9699f099c72a5c1e95",
+    "review_017": "fa7b9a9b4a74e242966fcf96154380f94e0235f4df8626614ab18d603526e959",
+    "review_018": "9668c30e253f3e88e8988d609fe140fea4aa1af3b1df1cc589de40025af51341"
+  },
+  "scope": "9 selected validation questions, paired baseline and SFT lr=0.00002. Baseline judgments reused for identical answers. ChatGPT Default model unknown; no human calibration."
+}

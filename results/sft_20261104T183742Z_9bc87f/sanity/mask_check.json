@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "batch_shape": [
+    2,
+    248
+  ],
+  "target_token_counts": [
+    165,
+    142,
+    173,
+    174,
+    132,
+    128,
+    152,
+    122
+  ],
+  "truncation": false
+}

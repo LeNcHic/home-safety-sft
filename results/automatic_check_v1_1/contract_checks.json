@@ -1,0 +1,15 @@
+{
+  "checks_passed": 10,
+  "checks": [
+    "reverse_negation_before_verb",
+    "reverse_negation_after_verb",
+    "positive_reverse_electricity",
+    "markup_and_case",
+    "negated_hazard_prefix",
+    "quoted_number_prefix",
+    "all_not_applicable_has_null_rate",
+    "invalid_values_rejected",
+    "mismatched_ids_rejected",
+    "invalid_jsonl_and_duplicate_ids_rejected"
+  ]
+}

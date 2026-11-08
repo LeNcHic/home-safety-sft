@@ -1,0 +1,20 @@
+{
+  "python": "3.14.2",
+  "schema_validation": "2/2 passed by src/judge.py summarize",
+  "checks": [
+    {
+      "id": "smoke_gas_001",
+      "exact_quote_count": 5,
+      "prompt_reproduction": "byte_identical"
+    },
+    {
+      "id": "smoke_storage_001",
+      "exact_quote_count": 6,
+      "prompt_reproduction": "byte_identical"
+    }
+  ],
+  "evidence_quotes_matched": 11,
+  "summary_verified": true,
+  "judge_py_sha256": "4c60014dd811b028e2168aa62a6fae13fbc4a6a286db78a4887c792a64bf9e34",
+  "colab_run_performed": false
+}

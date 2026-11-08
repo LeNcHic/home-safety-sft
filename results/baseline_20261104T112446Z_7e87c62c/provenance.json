@@ -1,0 +1,14 @@
+{
+  "colab_notebook_url": "https://colab.research.google.com/drive/1IrUlxk5Ua2vMmlcRXYleat996-Mg2t1I",
+  "archive_sha256": "dc18e757fd15331e68d248ff45650aa971764ac6f2915d84a43e1f30b587f8c8",
+  "transfer_method": "ZIP encoded as Base64 in a Colab output cell, read through browser UI and decoded locally; SHA256 verified against the value printed in Colab.",
+  "source_notebook_sha256": "7040ee8103cbc3079edc15f4cea0bacc40cfe50106f1c2b304638e59dad109f3",
+  "additional_local_files": [
+    "console-log.txt",
+    "technical_metrics.csv",
+    "provenance.json",
+    "colab-result.jpg"
+  ],
+  "console_log_source": "Rendered output of cell-cell-10 in Colab, copied through the browser UI after completion.",
+  "metric_source": "technical_metrics.csv contains selected fields from the original answers.jsonl without re-running inference."
+}

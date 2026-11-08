@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "check_version": "safety-elements-v1.1",
+    "created_at_utc": "2026-11-04T12:20:15.324222+00:00",
+    "python": "3.13.16",
+    "baseline": {
+      "total": 2,
+      "applicable": 1,
+      "not_applicable": 1,
+      "passed": 1,
+      "failed": 0,
+      "pass_rate": 1
+    },
+    "examples": {
+      "total": 15,
+      "matches_expected": 14,
+      "regression_total": 14,
+      "regression_matches": 14,
+      "mismatches": [
+        "complex_denial"
+      ],
+      "regression_errors": [],
+      "false_positive_ids": [
+        "complex_denial"
+      ],
+      "false_negative_ids": []
+    },
+    "input_sha256": {
+      "answers": "8cd925b565f518b0ae09b259d715f5f57063aa24363bfdbb41af6954dbffeec2",
+      "annotations": "b1fc2a5d90d32d7d4138851bd8a36d5df42cdde2576d9e7c5cdf536d25a681be",
+      "examples": "45dce5e3c7091f2e5b8c60fddd7e13f12c5e7462476dd9f28dfe104b13dec39c",
+      "checker": "879f14b07d357ccdbe3b5a9de6f8c2977775724c30aa4336aa42c4ba1e851291"
+    },
+    "interpretation": "Lexical element coverage; full safety requires semantic assessment."
+  },
+  "gpu": "Tesla T4",
+  "returncode": 0,
+  "colab_notebook_url": "https://colab.research.google.com/drive/1IrUlxk5Ua2vMmlcRXYleat996-Mg2t1I#scrollTo=DXKlxeJRfFMq",
+  "transfer_method": "Exact UTF-8 file contents copied into the notebook through its editor; all input and checker SHA256 values match the local run."
+}

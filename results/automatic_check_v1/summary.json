@@ -1,0 +1,37 @@
+{
+  "check_version": "safety-elements-v1.0",
+  "created_at_utc": "2026-11-04T12:08:15.296695+00:00",
+  "python": "3.14.2",
+  "baseline": {
+    "total": 2,
+    "applicable": 1,
+    "not_applicable": 1,
+    "passed": 1,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "examples": {
+    "total": 15,
+    "matches_expected": 13,
+    "regression_total": 13,
+    "regression_matches": 13,
+    "mismatches": [
+      "complex_denial",
+      "reversed_word_order"
+    ],
+    "regression_errors": [],
+    "false_positive_ids": [
+      "complex_denial"
+    ],
+    "false_negative_ids": [
+      "reversed_word_order"
+    ]
+  },
+  "input_sha256": {
+    "answers": "8cd925b565f518b0ae09b259d715f5f57063aa24363bfdbb41af6954dbffeec2",
+    "annotations": "b1fc2a5d90d32d7d4138851bd8a36d5df42cdde2576d9e7c5cdf536d25a681be",
+    "examples": "d98e5331798975b4f1c6cfee68a74405fc0785f7477f7fd75f74c3dbd6995a41",
+    "checker": "e0c3a5e5fad9be4609bacef326573b3b8da473a118bf749a8d49e7ce1148e9bf"
+  },
+  "interpretation": "Lexical element coverage; full safety requires semantic assessment."
+}

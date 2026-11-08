@@ -1,0 +1,3 @@
+id,topic,risk,input_tokens,generated_tokens,generation_seconds,ended_with_eos,hit_token_limit
+smoke_gas_001,gas,high,64,112,11.547,True,False
+smoke_storage_001,home_organization,low,61,389,37.441,True,False

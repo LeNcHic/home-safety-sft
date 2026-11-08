@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "mode": "sanity",
+  "started_at": "2026-11-04T18:38:29.742395+00:00",
+  "optimizer_steps": 2,
+  "reload_verified": true,
+  "elapsed_seconds": 201.55055122399995,
+  "finished_at": "2026-11-04T18:41:51.292951+00:00"
+}

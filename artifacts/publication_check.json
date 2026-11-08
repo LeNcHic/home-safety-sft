@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-11-08",
+  "scope": "Local Git publication payload; no commit, push or upload performed.",
+  "report_pages": 7,
+  "unit_tests_passed": 10,
+  "data_validation_errors": 0,
+  "data_validation_warnings": 0,
+  "frozen_data_sha256_verified": true,
+  "automatic_check_examples": {
+    "matched": 14,
+    "total": 15,
+    "known_limitation": "complex_denial"
+  },
+  "both_validation_summaries_reproduced_exactly": true,
+  "final_metrics_reproduced_exactly": true,
+  "both_judge_score_tables_reproduced_exactly": true,
+  "judge_json_and_quotes_validated": true,
+  "test_baseline_summary_reproduced_exactly": true,
+  "colab_bundle_sources_verified": true,
+  "colab_bundle_sha256": "b69f33cb892e7f42e7859552de141e41c1bd2a6d6aaf0a074056fd4ea9e1f3ce",
+  "release_archive_hashes_and_integrity_verified": true,
+  "python_and_notebook_cells_parsed": true,
+  "notebooks_have_saved_outputs": false,
+  "relative_markdown_links_verified": true,
+  "credential_pattern_matches": 0,
+  "gpu_inference_rerun_during_publication_preparation": false,
+  "public_weight_links_available": false,
+  "publication_file_count": 344,
+  "git_file_limit_bytes": 104857600,
+  "largest_publication_file_bytes": 280657
+}

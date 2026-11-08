@@ -1,0 +1,15 @@
+{
+  "run_id": "baseline_20261104T112446Z_7e87c62c",
+  "status": "completed",
+  "started_at_utc": "2026-11-04T11:24:47.618351+00:00",
+  "expected_answers": 2,
+  "completed_answers": 2,
+  "input_sha256": {
+    "config.json": "279b58f7821eb23d882315d4d284deafe5a53d673ae160cb40d6fd728707c9d2",
+    "questions.jsonl": "45a422939e884dce3dd418c068b9adc67598a9a74732b7643543a4e19f949868"
+  },
+  "model_load_seconds": 150.086,
+  "finished_at_utc": "2026-11-04T11:28:07.145984+00:00",
+  "peak_cuda_allocated_gib": 2.874,
+  "peak_cuda_reserved_gib": 2.957
+}

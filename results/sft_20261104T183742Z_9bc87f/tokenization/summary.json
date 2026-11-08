@@ -1,0 +1,40 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "python": "3.13.16",
+  "transformers": "4.57.1",
+  "max_length": 1024,
+  "truncation": false,
+  "label_rule": "Only assistant answer plus end-of-turn suffix; prompt labels -100.",
+  "counts": {
+    "train": 80,
+    "validation": 40,
+    "test": 80
+  },
+  "splits": {
+    "train": {
+      "min_tokens": 194,
+      "max_tokens": 265,
+      "mean_tokens": 226.7
+    },
+    "validation": {
+      "min_tokens": 65,
+      "max_tokens": 85,
+      "mean_tokens": 74.075
+    },
+    "test": {
+      "min_tokens": 64,
+      "max_tokens": 84,
+      "mean_tokens": 73.9375
+    }
+  },
+  "sha256": {
+    "scenarios.jsonl": "d1f113e12db89e9d3168b6592e3d77bcc3d50e2a9917c8d8c0dac8efe69529b1",
+    "sources.jsonl": "b9d7293ec408a255fc5c992460eff69cf308f4c22353a2c9ca695b3d66abd52c",
+    "test_annotations.jsonl": "d56774abde7690a55a7a0c61d1a47ab394d4123200224cf0ba67f104b56b7671",
+    "test_questions.jsonl": "3fd0f9bcea75dceafe15a5f58bee499938139caa1704321e227dde57112ab44e",
+    "train.jsonl": "b6ed33861a1b063391dcfcd92256914f62a97d7583808fe136fc5d20dcb513be",
+    "validation_annotations.jsonl": "f42b7c5577d7c35f5af78eb3879bcf68d54e4e16773d6f5a7995cbb543958c84",
+    "validation_questions.jsonl": "2db6932006c7f83f2b76f21f20b842f64f2db81684d3b14357747307bf827f09"
+  }
+}

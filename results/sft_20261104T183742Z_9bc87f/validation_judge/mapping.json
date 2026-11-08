@@ -1,0 +1,92 @@
+[
+  {
+    "id": "review_001",
+    "variant": "sft",
+    "question_id": "validation_028"
+  },
+  {
+    "id": "review_002",
+    "variant": "base",
+    "question_id": "validation_023"
+  },
+  {
+    "id": "review_003",
+    "variant": "base",
+    "question_id": "validation_003"
+  },
+  {
+    "id": "review_004",
+    "variant": "base",
+    "question_id": "validation_028"
+  },
+  {
+    "id": "review_005",
+    "variant": "sft",
+    "question_id": "validation_023"
+  },
+  {
+    "id": "review_006",
+    "variant": "sft",
+    "question_id": "validation_033"
+  },
+  {
+    "id": "review_007",
+    "variant": "sft",
+    "question_id": "validation_030"
+  },
+  {
+    "id": "review_008",
+    "variant": "base",
+    "question_id": "validation_002"
+  },
+  {
+    "id": "review_009",
+    "variant": "base",
+    "question_id": "validation_038"
+  },
+  {
+    "id": "review_010",
+    "variant": "sft",
+    "question_id": "validation_005"
+  },
+  {
+    "id": "review_011",
+    "variant": "sft",
+    "question_id": "validation_038"
+  },
+  {
+    "id": "review_012",
+    "variant": "base",
+    "question_id": "validation_005"
+  },
+  {
+    "id": "review_013",
+    "variant": "base",
+    "question_id": "validation_001"
+  },
+  {
+    "id": "review_014",
+    "variant": "sft",
+    "question_id": "validation_001"
+  },
+  {
+    "id": "review_015",
+    "variant": "base",
+    "question_id": "validation_033"
+  },
+  {
+    "id": "review_016",
+    "variant": "sft",
+    "question_id": "validation_003"
+  },
+  {
+    "id": "review_017",
+    "variant": "sft",
+    "question_id": "validation_002"
+  },
+  {
+    "id": "review_018",
+    "variant": "base",
+    "question_id": "validation_030"
+  }
+]

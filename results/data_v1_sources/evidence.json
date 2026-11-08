@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-04",
+  "entries": [
+    {
+      "source_id": "mchs_window_children",
+      "example_id": "test_029",
+      "url": "https://25.mchs.gov.ru/deyatelnost/press-centr/novosti/5547128",
+      "support_scope": "Москитные сетки не удерживают ребёнка. Блокираторы и присмотр взрослых.",
+      "short_quote": "Не оставляйте ребёнка без присмотра с открытым окном.",
+      "author_additions_and_limits": "Закрыть доступ к окну — применение перечисленных мер к ситуации вопроса.",
+      "retrieval": "Google browser search followed by MCP page extraction",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "source_id": "mchs_fire_doors",
+      "example_id": "test_069",
+      "url": "https://06.mchs.gov.ru/deyatelnost/nadzornaya-deyatelnost-i-profilakticheskaya-rabota/dopolnitelnaya-informaciya/trebovaniya-pozharnoy-bezopasnosti-dlya-mnogokvartirnyh-zhilyh-domov-povyshennoy-etazhnosti",
+      "support_scope": "Самозакрывающиеся двери и запрет приспособлений, препятствующих закрыванию. Учтено исключение для предусмотренных автоматических устройств.",
+      "short_quote": "Не допускается устанавливать какие-либо приспособления, препятствующие нормальному закрыванию противопожарных или противодымных дверей (устройств).",
+      "author_additions_and_limits": "Обращение к управляющей организации по вентиляции добавлено как практический способ устранения причины фиксации двери.",
+      "retrieval": "Google browser search followed by MCP page extraction",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "source_id": "mosru_bearing_opening",
+      "example_id": "validation_003",
+      "url": "https://www.mos.ru/news/item/161778073/",
+      "support_scope": "Проект, согласование и профессиональная оценка несущей конструкции до изменения проёма. Московские процедуры не распространяются автоматически на другие регионы.",
+      "short_quote": "Без утвержденного проекта делать проем в несущей стене запрещено.",
+      "author_additions_and_limits": "Запрет определять стену только по толщине — авторское ограничение дистанционной диагностики, выводимое из необходимости оценки конструкции.",
+      "retrieval": "Google browser search followed by MCP page extraction",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "source_id": "mosru_balcony_inspection",
+      "example_id": "test_035",
+      "url": "https://www.mos.ru/news/item/174227073/",
+      "support_scope": "Осмотр краевого разрушения плит, обязанность управляющих организаций устранить выявленные повреждения.",
+      "short_quote": "Жилищные инспекторы зафиксировали неудовлетворительное техническое состояние балконов.",
+      "author_additions_and_limits": "Ограничение использования и доступа до осмотра добавлено составителем для описанной трещины и осыпания. Классификация любой трещины по одной фразе не выполняется.",
+      "retrieval": "Google browser search followed by MCP page extraction",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "source_id": "teplopribor_pressure_repair",
+      "example_id": "validation_023",
+      "url": "https://radiatorteplopribor.ru/articles/kak-ustranit-tech-v-radiatore-prostye-resheniya-dlya-raznyh-tipov-polomok/",
+      "support_scope": "Раздел о частых ошибках — ремонт под давлением и перетяжка соединений.",
+      "short_quote": "Перетяжка соединений (приводит к трещинам)",
+      "author_additions_and_limits": "Риск ожога горячей водой и ограничение доступа добавлены автором. Статья содержит способы самостоятельного ремонта, используемая опора ограничена предупреждениями раздела об ошибках.",
+      "retrieval": "Google browser search followed by MCP page extraction",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "source_id": "mosru_apartment_flood",
+      "example_id": "test_036",
+      "url": "https://www.mos.ru/otvet-dom-i-dvor/chto-delat-esli-vashu-kvartiru-zatopilo/",
+      "support_scope": "Перекрытие подачи воды и вызов аварийной диспетчерской службы.",
+      "short_quote": "Также специалисты службы помогут с устранением причины протечки",
+      "author_additions_and_limits": "Безопасная доступность исправного квартирного крана, отказ от разборки под давлением и отход при невозможности безопасного действия добавлены автором. Указание страницы на обесточивание требует безопасного доступа к сухому щиту. Юридические сроки и сторонние объяснения электрических явлений в критерии не переносились.",
+      "retrieval": "Google browser search followed by MCP page extraction",
+      "checked_on": "2026-11-04"
+    }
+  ],
+  "not_used": [
+    {
+      "url": "https://50.mchs.gov.ru/deyatelnost/poleznaya-informaciya/rekomendacii-naseleniyu/3-chs-tehnogennogo-haraktera/avarii-na-kommunalnyh-sistemah-zhizneobespecheniya",
+      "reason": "Broad guidance contains unsuitable water-purification and indoor combustion advice. More specific source used for water leaks."
+    }
+  ],
+  "checklist_wording_changed": false
+}

@@ -1,0 +1,25 @@
+{
+  "provider": "OpenAI",
+  "product": "ChatGPT",
+  "interface": "web",
+  "authentication": "guest",
+  "selected_model": "default",
+  "selected_title": "Default",
+  "exact_model": null,
+  "model_revision": null,
+  "temperature": null,
+  "seed": null,
+  "system_prompt": null,
+  "completion_observed_at": {
+    "smoke_gas_001": "2026-11-04T13:19:44.176Z",
+    "smoke_storage_001": "2026-11-04T13:21:12.588Z"
+  },
+  "conversation_urls": {
+    "smoke_gas_001": "https://chatgpt.com/uc/6aeb3096-b5f0-83ea-a4ca-68871c8c8dba",
+    "smoke_storage_001": "https://chatgpt.com/uc/6aeb30f1-d880-83ea-ac3c-1eff6fc2fb04"
+  },
+  "prompt_source": "results/judge_pilot/prompts",
+  "protocol": "One new empty chat per question, first response only, no retries or follow-up correction requests.",
+  "raw_extraction": "Rendered response innerText, parsed as JSON without changes to judgments.",
+  "model_identity_limitation": "The guest interface exposed only Default. Exact model identity and sampling parameters were not provided."
+}

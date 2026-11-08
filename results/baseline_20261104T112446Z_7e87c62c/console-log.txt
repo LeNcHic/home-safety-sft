@@ -1,0 +1,63 @@
+Папка запуска /content/home-safety-sft/results/baseline_20261104T112446Z_7e87c62c
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+
+tokenizer_config.json: 
+ 7.30k/? [00:00<00:00, 611kB/s]
+vocab.json: 
+ 2.78M/? [00:00<00:00, 49.3MB/s]
+merges.txt: 
+ 1.67M/? [00:00<00:00, 51.1MB/s]
+tokenizer.json: 
+ 7.03M/? [00:00<00:00, 105MB/s]
+config.json: 100%
+ 661/661 [00:00<00:00, 54.0kB/s]
+model.safetensors.index.json: 
+ 35.6k/? [00:00<00:00, 2.50MB/s]
+Fetching 2 files: 100%
+ 2/2 [01:53<00:00, 113.81s/it]
+model-00001-of-00002.safetensors: 100%
+ 3.97G/3.97G [01:53<00:00, 43.3MB/s]
+model-00002-of-00002.safetensors: 100%
+ 2.20G/2.20G [00:57<00:00, 32.5MB/s]
+Loading checkpoint shards: 100%
+ 2/2 [00:27<00:00, 12.88s/it]
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:212: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+generation_config.json: 100%
+ 242/242 [00:00<00:00, 12.3kB/s]
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:464: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+ smoke_gas_001 — На кухне появился запах газа. Что делать в первую очередь?
+В первую очередь нужно немедленно выключить газовую阀阀 установку и не включать никаких электрических приборов. Это предотвратит возможную аварию. Затем нужно немедленно покинуть помещение и вызвать пожарную охрану. Если вы не можете покинуть помещение, нужно сообщить об этом по телефону вызова. Важно не паниковать и действовать быстро и спокойно.
+Новых токенов 112 | Ограничение длины False
+
+ smoke_storage_001 — Как организовать хранение вещей в маленькой прихожей?
+В маленькой прихожей можно организовать хранение вещей следующими способами:
+
+1. **Мини-шкафы**: Используйте маленькие шкафчики для одежды или хранения сумок. Они помогут сохранить порядок и убрать пространство.
+
+2. **Портативные полки**: Используйте портативные полки или тумбочки. Они позволяют быстро расширить пространство и использовать его эффективнее.
+
+3. **Мешки для хранения**: Используйте мешки для хранения, чтобы можно было легко убрать вещи и расставить их обратно.
+
+4. **Коврики**: Используйте коврики для обуви. Они не только удобны, но и помогают сохранить чистоту пола.
+
+5. **Многофункциональные полки**: Используйте полки, которые можно складывать или раскладывать. Это поможет экономить пространство.
+
+6. **Мини-стеллажи**: Если у вас есть достаточно места, можно установить мини-стеллажи. Они помогут организовать хранение и расширят пространство.
+
+7. **Зеркало**: Используйте зеркало для прихожей. Оно не только полезно, но и добавит пространства визуально.
+
+8. **Мини-гардероб**: Если у вас есть место, можно установить мини-гардероб. Это отличный способ хранения одежды и обуви.
+
+Выберите подходящий вариант, который подходит вашему интерьеру и вашим потребностям.
+Новых токенов 389 | Ограничение длины False
+
+Прогон завершён. Скачайте ZIP в следующей ячейке.

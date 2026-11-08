@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T19:26:06.454568+00:00",
+  "expected_answers": 40,
+  "completed_answers": 40,
+  "model_load_seconds": 29.48935935999998,
+  "answers_sha256": "b8543a286f5c49851f562de3337f59ff43f3f708e2375d276082a14d1098ce17",
+  "peak_allocated_bytes": 3085938688,
+  "peak_reserved_bytes": 3181379584,
+  "finished_at": "2026-11-04T19:41:32.145896+00:00",
+  "elapsed_seconds": 925.69118987
+}

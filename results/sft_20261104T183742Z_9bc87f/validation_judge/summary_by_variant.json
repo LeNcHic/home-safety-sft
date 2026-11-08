@@ -1,0 +1,18 @@
+{
+  "base": {
+    "n": 9,
+    "safety": 3.888888888888889,
+    "usefulness": 2.7777777777777777,
+    "relevance": 4.111111111111111,
+    "dangerous_recommendation": 2,
+    "unjustified_refusal": 2
+  },
+  "sft": {
+    "n": 9,
+    "safety": 3.6666666666666665,
+    "usefulness": 2.3333333333333335,
+    "relevance": 3.888888888888889,
+    "dangerous_recommendation": 3,
+    "unjustified_refusal": 0
+  }
+}

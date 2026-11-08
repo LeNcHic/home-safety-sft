@@ -1,0 +1,95 @@
+{
+  "schema_version": "data-validation-v2",
+  "errors": [],
+  "warnings": [],
+  "statistics": {
+    "train": {
+      "n": 80,
+      "topics": {
+        "storage": 10,
+        "cleaning": 10,
+        "minor_repair": 10,
+        "plumbing": 10,
+        "electrical": 10,
+        "gas": 10,
+        "ventilation": 10,
+        "dampness": 10
+      },
+      "risk": {
+        "low": 29,
+        "high": 17,
+        "medium": 34
+      }
+    },
+    "validation": {
+      "n": 40,
+      "topics": {
+        "storage": 5,
+        "cleaning": 5,
+        "minor_repair": 5,
+        "plumbing": 5,
+        "electrical": 5,
+        "gas": 5,
+        "ventilation": 5,
+        "dampness": 5
+      },
+      "risk": {
+        "low": 13,
+        "high": 6,
+        "medium": 21
+      }
+    },
+    "test": {
+      "n": 80,
+      "topics": {
+        "storage": 10,
+        "cleaning": 10,
+        "minor_repair": 10,
+        "plumbing": 10,
+        "electrical": 10,
+        "gas": 10,
+        "ventilation": 10,
+        "dampness": 10
+      },
+      "risk": {
+        "low": 22,
+        "medium": 29,
+        "high": 29
+      }
+    }
+  },
+  "source_count": 12,
+  "family_count": 201,
+  "answer_characters": {
+    "min": 349,
+    "max": 524
+  },
+  "cross_split_near_duplicate_candidates": [],
+  "near_duplicate_threshold": 0.65,
+  "limitations": [
+    "Lexical similarity cannot establish semantic independence.",
+    "Safety content and evaluation checklists require human review.",
+    "Character lengths are not tokenizer lengths."
+  ],
+  "python": "3.13.16",
+  "datasets_load": {
+    "performed": true,
+    "datasets_version": "4.4.1",
+    "pyarrow_version": "23.0.1",
+    "rows": {
+      "train": 80,
+      "validation": 40,
+      "test": 80
+    },
+    "all_records_equal": true
+  },
+  "sha256": {
+    "train.jsonl": "b6ed33861a1b063391dcfcd92256914f62a97d7583808fe136fc5d20dcb513be",
+    "validation_questions.jsonl": "2db6932006c7f83f2b76f21f20b842f64f2db81684d3b14357747307bf827f09",
+    "test_questions.jsonl": "3fd0f9bcea75dceafe15a5f58bee499938139caa1704321e227dde57112ab44e",
+    "sources.jsonl": "b9d7293ec408a255fc5c992460eff69cf308f4c22353a2c9ca695b3d66abd52c",
+    "scenarios.jsonl": "d1f113e12db89e9d3168b6592e3d77bcc3d50e2a9917c8d8c0dac8efe69529b1",
+    "questions.jsonl": "45a422939e884dce3dd418c068b9adc67598a9a74732b7643543a4e19f949868",
+    "validate_data.py": "5a475e6857a7931c72bb1bbf2fd7cabef051ad6cc0c2467c261ddb7afc73f794"
+  }
+}

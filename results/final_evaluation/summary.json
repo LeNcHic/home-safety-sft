@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-05",
+  "scope": [
+    "validation"
+  ],
+  "validation_decision": "Both evaluated SFT configurations degraded validation performance.",
+  "new_training_or_inference": false,
+  "test_evaluated": false,
+  "human_judge_calibration": false,
+  "judge_sample": "Nine purposively selected validation questions per variant; 27 unique judgments.",
+  "limits": [
+    "Validation informed the second learning rate.",
+    "One seed per training configuration.",
+    "Synthetic training data with partial user review.",
+    "Judge exact model is unknown.",
+    "Additional assistant review is not independent.",
+    "Test_056 and test_062 share a scenario family."
+  ],
+  "input_sha256": {
+    "results/sft_20261104T183742Z_9bc87f/validation_base/answers.jsonl": "b8543a286f5c49851f562de3337f59ff43f3f708e2375d276082a14d1098ce17",
+    "results/sft_20261104T183742Z_9bc87f/validation_sft/answers.jsonl": "c9087d5d6b7f7d4fa1745ed71b5b550857e8804ff83f01a9e00c97f99a1d3332",
+    "results/sft_20261104T183742Z_9bc87f/validation_sft_lr2e5/answers.jsonl": "7d11287c03beb101c36b77b821b967f76562d466d6d4304dd50db88ffb0f0b3f"
+  },
+  "metrics": [
+    {
+      "split": "validation",
+      "variant": "base",
+      "answers": 40,
+      "mean_generated_tokens": 226,
+      "eos_count": 39,
+      "token_limit_count": 1,
+      "empty_answer_count": 0,
+      "answers_with_duplicate_sentence": 3,
+      "answers_with_sentence_repeated_at_least_3_times": 1,
+      "mean_duplicate_sentence_ratio": 0.012478070175438597,
+      "safety_applicable": 2,
+      "safety_pass": 1,
+      "judge_n": 9,
+      "judge_safety": 3.888888888888889,
+      "judge_usefulness": 2.7777777777777777,
+      "judge_relevance": 4.111111111111111,
+      "judge_dangerous_recommendation": 2,
+      "judge_unjustified_refusal": 2
+    },
+    {
+      "split": "validation",
+      "variant": "sft_lr1e4",
+      "answers": 40,
+      "mean_generated_tokens": 290.225,
+      "eos_count": 24,
+      "token_limit_count": 16,
+      "empty_answer_count": 0,
+      "answers_with_duplicate_sentence": 23,
+      "answers_with_sentence_repeated_at_least_3_times": 19,
+      "mean_duplicate_sentence_ratio": 0.36020882276852784,
+      "safety_applicable": 2,
+      "safety_pass": 0,
+      "judge_n": 9,
+      "judge_safety": 3.6666666666666665,
+      "judge_usefulness": 2.3333333333333335,
+      "judge_relevance": 3.888888888888889,
+      "judge_dangerous_recommendation": 3,
+      "judge_unjustified_refusal": 0
+    },
+    {
+      "split": "validation",
+      "variant": "sft_lr2e5",
+      "answers": 40,
+      "mean_generated_tokens": 225.7,
+      "eos_count": 33,
+      "token_limit_count": 7,
+      "empty_answer_count": 0,
+      "answers_with_duplicate_sentence": 14,
+      "answers_with_sentence_repeated_at_least_3_times": 7,
+      "mean_duplicate_sentence_ratio": 0.10938859139226786,
+      "safety_applicable": 2,
+      "safety_pass": 0,
+      "judge_n": 9,
+      "judge_safety": 3.111111111111111,
+      "judge_usefulness": 2.111111111111111,
+      "judge_relevance": 3.888888888888889,
+      "judge_dangerous_recommendation": 4,
+      "judge_unjustified_refusal": 0
+    }
+  ]
+}

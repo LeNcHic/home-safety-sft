@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-11-04T12:40:39.384843+00:00",
+  "answers_sha256": "8cd925b565f518b0ae09b259d715f5f57063aa24363bfdbb41af6954dbffeec2",
+  "rubric_sha256": "1c77a6f2832f45d7e2b1a1dfa4eea4055e29ab3fa490f3ae47c40173b3322bbf",
+  "ids": [
+    "smoke_gas_001",
+    "smoke_storage_001"
+  ],
+  "prompt_sha256": {
+    "smoke_gas_001": "172955df6c719e472f95bc8b636d50eafccad37cba442314d0936655c7f7aa7e",
+    "smoke_storage_001": "4ec00ae296aa8504f1c459583a9d39a806d03269490c07eac63bcf38cf4fc4e8"
+  },
+  "protocol": "One fresh conversation per answer. No model identity or previous scores supplied."
+}

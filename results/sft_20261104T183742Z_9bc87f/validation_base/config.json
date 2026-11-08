@@ -1,0 +1,24 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "seed": 42,
+  "system_prompt": "Ты помощник по вопросам дома и квартиры. Отвечай на русском языке, понятно и по существу.",
+  "split": "validation",
+  "variant": "base",
+  "adapter_sha256": null,
+  "questions_sha256": "2db6932006c7f83f2b76f21f20b842f64f2db81684d3b14357747307bf827f09",
+  "quantization": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "float16"
+  },
+  "dtype": "float16",
+  "attention_implementation": "sdpa",
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0
+  }
+}

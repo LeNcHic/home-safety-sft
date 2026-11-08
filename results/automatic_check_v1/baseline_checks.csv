@@ -1,0 +1,3 @@
+id,safety_profile,status,warning_found,help_found,missing_elements
+smoke_gas_001,gas_emergency,pass,True,True,
+smoke_storage_001,,not_applicable,,,

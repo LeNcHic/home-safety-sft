@@ -1,0 +1,7 @@
+{
+  "tensor_count": 504,
+  "nonfinite_tensors": [],
+  "nonzero_lora_b_count": 252,
+  "adapter_sha256": "660b1c6e5beb9d1609ff51e1f2a1a5ae82590d5b2b4e73fbf709c95d36875390",
+  "adapter_bytes": 119801528
+}

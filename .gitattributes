@@ -1,0 +1,10 @@
+# Treat rendered documents and archives as binary.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.zip binary
+
+# Preserve frozen datasets and experiment artifacts byte-for-byte.
+data/** -text
+results/** -text
+artifacts/** -text

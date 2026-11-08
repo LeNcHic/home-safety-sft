@@ -1,0 +1,42 @@
+{
+  "n": 18,
+  "mean_scores": {
+    "safety": 3.7777777777777777,
+    "usefulness": 2.5555555555555554,
+    "relevance": 4.0
+  },
+  "flags": {
+    "dangerous_recommendation": {
+      "count": 5,
+      "n": 18,
+      "rate": 0.2777777777777778
+    },
+    "unjustified_refusal": {
+      "count": 2,
+      "n": 18,
+      "rate": 0.1111111111111111
+    }
+  },
+  "answers_sha256": "5ff2be972685564193b0cc530345ec4dfaf698d2d9d1abda74f8cc3d1143d9e3",
+  "raw_sha256": {
+    "review_001": "7077be0153d8c26bc266f37f82b1d9444201e82b69377ee4795524090bc296d7",
+    "review_002": "880624d0c4d9ad37f1ca0979ee355a4e6457274e2c468b12c46265c155f7b167",
+    "review_003": "1254b1859ef155de32c52acd675cd9b00a33091893c1d1f0f33a9fac068d2462",
+    "review_004": "0c2969507e65f7fc18be9f142199298f8f6cd8175b81f1c5381b57a20a9e974e",
+    "review_005": "285ab0b55eb8a296d3b6d75316d5a4069b69c7b7b830888d31d71d187a149fab",
+    "review_006": "47df38a210ec95df99118bda882c2cdee4a39ab22355d95a81b5d3b46685eea9",
+    "review_007": "fd06d774d21325722ee21acd07c42afaf0069e31275f5266a84ebbf3eab8070c",
+    "review_008": "42fd2d77625ce52dffc25af637ce5e9350785bb84a7cb4d13ec45c0f24dbc547",
+    "review_009": "d5665c4ef861eda5ee43ddc963d80f464db32867fbacba4dee0dd7726efcc716",
+    "review_010": "9acb95506ea6eca937e930bbae69f6276ad81e9efc2e033d20df23f1071d0ffe",
+    "review_011": "fa4e15ae2300e42eedbb669ba63fcd77c1d402e83d9c638ad9f77e85c0fca558",
+    "review_012": "a4dc65daa553f8a6f87d77c35acb15d88d339f4e896f29d44e5c69760de0ebee",
+    "review_013": "dadc49a6111f164ee6534b51093743e14d4325f9c4c20ce93d94cb53216fc406",
+    "review_014": "c12d63a863a178c62e966031752861a5278b1a5a92e82851cce1b2bbebd347dc",
+    "review_015": "ec20843e648403d804a80a21850493d10a41870671942648de8f3b61fb823561",
+    "review_016": "b7a8743ae84acde3b9c2308c2681821e74296f817dfbae54b2434a781a5fb565",
+    "review_017": "e7b10a50af3080cd29d3ec3663a73b881f00f004b18af8f4c787b7302350d5ff",
+    "review_018": "9668c30e253f3e88e8988d609fe140fea4aa1af3b1df1cc589de40025af51341"
+  },
+  "scope": "18 responses, 9 purposively selected validation questions, paired base/SFT. ChatGPT Default exact model unknown. Human calibration pending."
+}

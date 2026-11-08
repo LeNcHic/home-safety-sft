@@ -1,0 +1,42 @@
+{
+  "created_on": "2026-11-05",
+  "publication_status": "prepared_locally",
+  "repository": "https://github.com/LeNcHic/home-safety-sft",
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "base_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "artifacts": [
+    {
+      "filename": "home-safety-lora-lr1e4.zip",
+      "local_path": "artifacts/release/home-safety-lora-lr1e4.zip",
+      "kind": "negative_experiment_adapter",
+      "bytes": 114674997,
+      "sha256": "a92d0864b047510b50ef07cafed9871d4c329fb1bccf67b5a8419d4eb8c364ea",
+      "members": 13,
+      "download_url": null,
+      "verified_access": false,
+      "access_verified_on": null
+    },
+    {
+      "filename": "home-safety-lora-lr2e5.zip",
+      "local_path": "artifacts/release/home-safety-lora-lr2e5.zip",
+      "kind": "negative_experiment_adapter",
+      "bytes": 114496614,
+      "sha256": "b9bfb148a53f394ca13bf35013147041a741001e9655ab942c7a6b7fbc30b41e",
+      "members": 13,
+      "download_url": null,
+      "verified_access": false,
+      "access_verified_on": null
+    },
+    {
+      "filename": "home-safety-data-v1.zip",
+      "local_path": "artifacts/release/home-safety-data-v1.zip",
+      "kind": "frozen_data",
+      "bytes": 63764,
+      "sha256": "ae9ea3452647926126080130b8fc9118459cb88249f58a974bbaa4e81bdf0aeb",
+      "members": 8,
+      "download_url": null,
+      "verified_access": false,
+      "access_verified_on": null
+    }
+  ]
+}

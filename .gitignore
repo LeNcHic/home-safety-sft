@@ -24,14 +24,10 @@ pytorch_model*.bin
 artifacts/*
 !artifacts/home-sft-colab.zip
 !artifacts/release_manifest.json
-!artifacts/publication_check.json
 
-# Keep final documentation and data; retain drafts only locally.
-docs/*
-!docs/dataset_v1.md
-!docs/judge_rubric.md
-!docs/safety_check.md
-!docs/submission.md
+# Keep working notes and drafts only locally.
+.local/
+docs/
 data/pilot/
 notebooks/03_test_evaluation.ipynb
 src/run_test_comparison.py

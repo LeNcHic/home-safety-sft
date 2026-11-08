@@ -12,13 +12,11 @@ def main():
     parser.add_argument('--output', type=Path, default=Path('artifacts/home-sft-colab.zip'))
     args = parser.parse_args()
     filenames = [
-        'src/validate_data.py', 'src/prepare_sft.py', 'src/train_qlora.py',
-        'src/evaluate_model.py', 'src/summarize_validation.py', 'src/plot_training.py', 'src/plot_validation.py',
-        'src/checks.py', 'src/summarize_test_baseline.py', 'src/finalize_evaluation.py',
-        'data/safety_check_examples.jsonl',
-        'requirements-sft.txt',
+        'requirements.txt', 'data/judge_rubric.md',
+        'data/safety_annotations.jsonl', 'data/safety_check_examples.jsonl',
         'results/baseline_20261104T112446Z_7e87c62c/questions.jsonl',
     ]
+    filenames.extend(str(p.relative_to(args.root)) for p in sorted((args.root/'src').glob('*.py')))
     filenames.extend(str(p.relative_to(args.root)) for p in sorted((args.root/'data/v1').glob('*.json*')))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open('xb') as handle, ZipFile(handle, 'w', compression=ZIP_DEFLATED) as archive:

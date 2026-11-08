@@ -1,6 +1,0 @@
-# Основные зависимости первого прогона.
-# PyTorch с CUDA предоставляется средой Colab, полная версия сохраняется в результатах.
-transformers==4.57.1
-accelerate==1.11.0
-bitsandbytes==0.48.1
-huggingface-hub==0.36.0
